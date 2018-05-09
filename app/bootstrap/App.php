@@ -4,6 +4,6 @@ Class App
 {
     public function __construct()
     {
-        echo 'this is the app starting';
+        $router = new Router;
     }
 }
